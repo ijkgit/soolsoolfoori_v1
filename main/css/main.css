@@ -1,0 +1,116 @@
+/* 메인 콘텐트 */
+#community_hot { 
+    position: relative;
+    margin-top: 94px; margin-left: 564px;
+    width: 1046px;
+    height: 520px;}
+#community_hot h1 { 
+    font-family:'GmarketBold';
+    font-size: 30px;
+    color:#8c7af7;
+    padding-bottom:15px;
+}
+#community_hot #rank {
+    position: relative;
+    width: 980px;
+    height: 430px;
+    margin-left: 20px;
+}
+#community_hot #rank #box {
+    padding-top:25px;
+    padding-bottom:25px;
+}
+#community_hot #rank .num {
+    margin-left: 8px;
+    font-family: 'esaBold';
+    font-size: 30px;
+    color:#707070;
+    list-style-type: none;
+    display: inline;
+}
+#community_hot #rank .txt {
+    margin-left: 77px;
+    margin-top: 4px;
+    font-family: 'esaLight';
+    font-size: 24px;
+    color:#707070;
+    list-style-type: none;
+    display: inline;
+}
+
+#community_hot #rank .txt a {
+    color:#707070;
+}
+
+#community_hot #line {
+    width: 1046px;
+    border: 1px solid #707070;
+    margin-left: -22px;
+}
+
+#article { 
+    position: relative;
+    margin-top: 90px; margin-left: 564px;
+    width: 1046px;
+    height: 220px;
+}
+
+#article h1 { 
+    font-family:'GmarketBold';
+    font-size: 30px;
+    color:#8c7af7;
+    padding-bottom:26px;
+}
+#article #rank {
+    position: relative;
+    width: 980px;
+    height: 430px;
+    margin-left: 25px;
+}
+#article #rank #box {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+#article #rank #box li::marker{
+    color:#f6c849;
+    font-size: 30px;
+    padding-right:15px;
+}
+
+#article #rank #box li{
+    font-family: '2';
+    font-size: 20px;
+    font-weight : lighter;
+}
+
+#photo_box { 
+    position:relative;
+    width:1860px;
+    margin-top: 86px; margin-left: 35px;
+    overflow: hidden;
+    margin-bottom:90px;
+}
+
+#photo_box #photo { 
+    display: inline-block;
+    padding-right : 35px;
+}
+
+#photo_box #photo2 { 
+    display: inline-block;
+}
+/* #wrap article h1 {
+    width: 400px; font-size: 14px; }   */
+#photo_box #photo img {
+    display: block; 
+    width:330px; 
+    height:426px;
+    border: solid 1px #c1c1e3;;
+}
+
+#photo_box #photo2 img {
+    display: block; 
+    width:330px; 
+    height:426px;
+    border: solid 1px #c1c1e3;
+}

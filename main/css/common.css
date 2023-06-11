@@ -1,0 +1,181 @@
+    /* 마진 패딩 초기화 */
+    * { padding: 0; margin: 0;}
+    /* 페이지 기본 글꼴과 크기 설정 */
+    body { font-family: "2";   font-size: 14px; }
+    img { border: 0;}
+    ul { list-style-type: none; }
+    /* <a> 태그 기본 설정 */
+    a { display: inline-block; text-decoration: none; }
+    a:link { text-decoration:none; color: #f6c849; }
+    a:hover { text-decoration:none; color: #f6c849; }
+    a:visited { text-decoration:none; color: #f6c849; }
+    a:active { text-decoration:none; color: #f6c849; }
+
+    #box a:link { text-decoration:none; color: #3c3c3c; }
+    #box a:hover { text-decoration:none; color: #3c3c3c; }
+    #box a:visited { text-decoration:none; color: #3c3c3c; }
+    #box a:active { text-decoration:none; color: #3c3c3c; }
+    /* 상단 헤더 */
+    #top { position: relative;   margin: 0 auto;
+     
+    text-align:center;
+    }
+    #topbox { height: 124px; background-color: #8c7af7; }
+
+    #topbox a img { padding-top: 0px; padding-left: px;
+        width: 480px; height: 120px; position: relative; }
+    #top h1 a { 
+        font-family:'GmarketBold';
+        font-size:45px; color: white; padding-top: 40px;}
+    #top_menu {
+        position: relative; 
+        font-size: 25px; 
+        text-align:right; margin: 0px 150px 0 0;
+        padding:40px;
+        }
+    #top #top_menu li { display: inline-block }
+    #top #top_menu li a { 
+        font-family: 'Nexon';
+        font-size: 18px;
+        color: #9a9a9a;
+        padding: 5px; }
+    #menu_bar { 
+        /* position: fixed; */
+        position:relative; 
+        font-family:'GmarketBold';
+        width: 1320px; height: 0px;
+    font-size: 30px; margin: 0 auto; padding: 40px 0 0 560px;
+    display:inline-block;}
+    #menu_bar li { display: inline; padding-right:208px; }
+    #menu_bar a:link { color: #f6c849; }
+    #menu_bar a:hover { color: #f6c849; }
+    #menu_bar a:visited { color: #f6c849; }
+    #menu_bar a:active { color: #f6c849; }
+    */
+    #menu_bar a { color: #f6c849; }
+    /* 메인 이미지 */
+    #main_img_bar { height: 230px; text-align: center; background-color: white; }
+    #main_img_bar img { margin-top: 30px; }
+    /* 하단 푸터 */
+    footer { 
+        position:relative;
+        width:1900px;
+        height: 120px; 
+        border: solid 1px; border-color: #707070; 
+        background-color: #8c7af7;
+        margin: 0 auto;
+        
+    }
+    #title {
+        width:1820px; height:120px; margin-right:0px;
+        margin: 0 auto;
+    }
+    #title h1 {
+        position:absolute;
+        margin-left: 103px; margin-top: 50px;
+        font-family: 'GmarketBold';
+        font-size: 23px;
+        color: #ffffff;
+    }
+
+    #title h2 {
+        position:absolute;
+        font-family: 'GmarketMedium';
+        font-size: 18px;
+        margin-top:37px; padding-left:1224px;
+        color: #ffffff;
+        padding-right:23px;
+    }
+
+    #title h3 {
+        position:absolute;
+        font-family: 'GmarketLight';
+        font-size: 18px;
+        margin-top:37px; margin-left:1327px;
+        color: #ffffff;
+        display: inline;
+    }
+
+    #title h4 {
+        position:absolute;
+        font-family: 'GmarketMedium';
+        font-size: 18px;
+        margin-top:71px; margin-left:1224px;
+        color: #ffffff;
+        padding-right:23px;
+    }
+
+    #title h5 {
+        position:absolute;
+        font-family: 'GmarketLight';
+        font-size: 18px;
+        margin-top: 71px; margin-left:1327px;
+        color: #ffffff;
+        display: inline;
+    }
+
+    #title h6 a img {
+        position:absolute;
+        font-family: 'GmarketLight';
+        font-size: 18px;
+        margin-top: 0px !important; margin-left:1610px !important;
+        color: #ffffff;
+        display: inline;
+    }
+    
+    #title h7 a img {
+        position:absolute !important;
+        font-family: 'GmarketLight';
+        font-size: 18px;
+        margin-top: 12px !important; margin-left:1700px !important;
+        color: #ffffff;
+        display: inline;
+
+    }
+
+    #footer_content { 
+        position: relative; 
+        width: 1000px; 
+        margin: 0 auto; 
+        color: #dddddd; }
+    #footer_logo { position: absolute; top: 30px; left: 50px; font-size: 16px; }
+    #footer_logo span { color: yellow; }
+    #download { position: absolute; top: 20px; left: 400px; }
+    #author { position: absolute; top: 20px; left: 700px; }
+    /* 사이드 메뉴 */
+    #sidemenu { 
+        position: absolute; 
+        font-size: 22px; 
+        margin-top: 498px; 
+        margin-left: 280px;
+    }
+    #sidemenu li { 
+        padding-bottom: 40px; list-style: none;
+        font-family: 'jalnan';
+        color:#f6c849;
+    }
+    #sidemenu li h1 { 
+        font-family:'GmarketBold'; color: #8c7af7;
+        font-size: 25px;
+        height: 55px;
+    }
+
+    /* 로그인 정보 */
+    #login_info {
+        position: absolute; 
+        width: 200px;
+        height: 150px;
+        margin-top: 0px; 
+        margin-left: 278px;
+        font-family: 'apple';
+        font-size: 23px;
+        color: #658DF7;
+        text-align:initial;
+        /* padding-left:20px; */
+    }
+
+    #login_info h1 {
+        font-size: 35px;
+        font-weight:lighter;
+        display:inline;
+    }

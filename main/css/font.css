@@ -1,0 +1,79 @@
+@font-face {
+    src : url("../fonts/NotoSansKR-Thin.otf");
+    font-family: "1"
+}
+@font-face {
+    src : url("../fonts/NotoSansKR-Light.otf");
+    font-family: "2"
+}
+@font-face {
+    src : url("../fonts/NotoSansKR-Regular.otf");
+    font-family: "3"
+}
+@font-face {
+    src : url("../fonts/NotoSansKR-Medium.otf");
+    font-family: "4"
+}
+@font-face {
+    src : url("../fonts/NotoSansKR-Bold.otf");
+    font-family: "5"
+}
+@font-face {
+    src : url("../fonts/NotoSansKR-Black.otf");
+    font-family: "6"
+}
+
+@font-face {
+    font-family: 'RixYeoljeongdo_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    src : url("../fonts/GmarketSansLight.otf");
+    font-family: "GmarketLight";
+}
+@font-face {
+    src : url("../fonts/GmarketSansMedium.otf");
+    font-family: "GmarketMedium";
+}
+@font-face {
+    src : url("../fonts/GmarketSansBold.otf");
+    font-family: "GmarketBold";
+}
+
+@font-face {
+    src : url("../fonts/esamanruBold.otf");
+    font-family: "esaBold";
+}
+
+@font-face {
+    src : url("../fonts/esamanruLight.otf");
+    font-family: "esaLight";
+}
+
+@font-face {
+    src : url("../fonts/esamanruMedium.otf");
+    font-family: "esaMedium";
+}
+@font-face {
+    src : url("../fonts/JalnanOTF.otf");
+    font-family: "jalnan";
+}
+
+@font-face {
+    src : url("../fonts/Nexon.otf");
+    font-family: "nexon";
+}
+
+@font-face {
+    src : url("../fonts/AppleSDGothicNeoM.ttf");
+    font-family: "apple";
+}
+
+@font-face {
+    src : url("../fonts/TMONTium.ttf");
+    font-family: "tmon";
+}
+

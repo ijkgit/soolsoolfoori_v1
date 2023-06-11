@@ -1,0 +1,10 @@
+#board_box { 
+    position: relative; 
+    width: 1130px;
+    margin-top: 106px; margin-left:0px;
+    font-size: 20px; }
+
+    #board_box a:link { text-decoration:none; color: #3c3c3c; }
+    #board_box a:hover { text-decoration:none; color: #3c3c3c; }
+    #board_box a:visited { text-decoration:none; color: #3c3c3c; }
+    #board_box a:active { text-decoration:none; color: #3c3c3c; }
